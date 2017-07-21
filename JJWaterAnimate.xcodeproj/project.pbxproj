@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		177B83C91F21AC54003283AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 177B83C81F21AC54003283AF /* main.m */; };
+		177B83CC1F21AC54003283AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 177B83CB1F21AC54003283AF /* AppDelegate.m */; };
+		177B83CF1F21AC54003283AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 177B83CE1F21AC54003283AF /* ViewController.m */; };
+		177B83D21F21AC54003283AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 177B83D01F21AC54003283AF /* Main.storyboard */; };
+		177B83D41F21AC54003283AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 177B83D31F21AC54003283AF /* Assets.xcassets */; };
+		177B83D71F21AC54003283AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 177B83D51F21AC54003283AF /* LaunchScreen.storyboard */; };
+		177B83E11F21AC74003283AF /* TTWaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 177B83E01F21AC74003283AF /* TTWaterWaveView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		177B83C41F21AC54003283AF /* JJWaterAnimate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JJWaterAnimate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		177B83C81F21AC54003283AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		177B83CA1F21AC54003283AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		177B83CB1F21AC54003283AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		177B83CD1F21AC54003283AF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		177B83CE1F21AC54003283AF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		177B83D11F21AC54003283AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		177B83D31F21AC54003283AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		177B83D61F21AC54003283AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		177B83D81F21AC54003283AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		177B83DF1F21AC74003283AF /* TTWaterWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTWaterWaveView.h; sourceTree = "<group>"; };
+		177B83E01F21AC74003283AF /* TTWaterWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTWaterWaveView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		177B83C11F21AC53003283AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		177B83BB1F21AC53003283AF = {
+			isa = PBXGroup;
+			children = (
+				177B83C61F21AC54003283AF /* JJWaterAnimate */,
+				177B83C51F21AC54003283AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		177B83C51F21AC54003283AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				177B83C41F21AC54003283AF /* JJWaterAnimate.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		177B83C61F21AC54003283AF /* JJWaterAnimate */ = {
+			isa = PBXGroup;
+			children = (
+				177B83DE1F21AC74003283AF /* TTWaterWaveView */,
+				177B83CA1F21AC54003283AF /* AppDelegate.h */,
+				177B83CB1F21AC54003283AF /* AppDelegate.m */,
+				177B83CD1F21AC54003283AF /* ViewController.h */,
+				177B83CE1F21AC54003283AF /* ViewController.m */,
+				177B83D01F21AC54003283AF /* Main.storyboard */,
+				177B83D31F21AC54003283AF /* Assets.xcassets */,
+				177B83D51F21AC54003283AF /* LaunchScreen.storyboard */,
+				177B83D81F21AC54003283AF /* Info.plist */,
+				177B83C71F21AC54003283AF /* Supporting Files */,
+			);
+			path = JJWaterAnimate;
+			sourceTree = "<group>";
+		};
+		177B83C71F21AC54003283AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				177B83C81F21AC54003283AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		177B83DE1F21AC74003283AF /* TTWaterWaveView */ = {
+			isa = PBXGroup;
+			children = (
+				177B83DF1F21AC74003283AF /* TTWaterWaveView.h */,
+				177B83E01F21AC74003283AF /* TTWaterWaveView.m */,
+			);
+			path = TTWaterWaveView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		177B83C31F21AC53003283AF /* JJWaterAnimate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 177B83DB1F21AC54003283AF /* Build configuration list for PBXNativeTarget "JJWaterAnimate" */;
+			buildPhases = (
+				177B83C01F21AC53003283AF /* Sources */,
+				177B83C11F21AC53003283AF /* Frameworks */,
+				177B83C21F21AC53003283AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JJWaterAnimate;
+			productName = JJWaterAnimate;
+			productReference = 177B83C41F21AC54003283AF /* JJWaterAnimate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		177B83BC1F21AC53003283AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = cesiumai;
+				TargetAttributes = {
+					177B83C31F21AC53003283AF = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6H72553LUE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 177B83BF1F21AC53003283AF /* Build configuration list for PBXProject "JJWaterAnimate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 177B83BB1F21AC53003283AF;
+			productRefGroup = 177B83C51F21AC54003283AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				177B83C31F21AC53003283AF /* JJWaterAnimate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		177B83C21F21AC53003283AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177B83D71F21AC54003283AF /* LaunchScreen.storyboard in Resources */,
+				177B83D41F21AC54003283AF /* Assets.xcassets in Resources */,
+				177B83D21F21AC54003283AF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		177B83C01F21AC53003283AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				177B83CF1F21AC54003283AF /* ViewController.m in Sources */,
+				177B83E11F21AC74003283AF /* TTWaterWaveView.m in Sources */,
+				177B83CC1F21AC54003283AF /* AppDelegate.m in Sources */,
+				177B83C91F21AC54003283AF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		177B83D01F21AC54003283AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				177B83D11F21AC54003283AF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		177B83D51F21AC54003283AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				177B83D61F21AC54003283AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		177B83D91F21AC54003283AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		177B83DA1F21AC54003283AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		177B83DC1F21AC54003283AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6H72553LUE;
+				INFOPLIST_FILE = JJWaterAnimate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cesiumai.JJWaterAnimate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		177B83DD1F21AC54003283AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6H72553LUE;
+				INFOPLIST_FILE = JJWaterAnimate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cesiumai.JJWaterAnimate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		177B83BF1F21AC53003283AF /* Build configuration list for PBXProject "JJWaterAnimate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177B83D91F21AC54003283AF /* Debug */,
+				177B83DA1F21AC54003283AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		177B83DB1F21AC54003283AF /* Build configuration list for PBXNativeTarget "JJWaterAnimate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				177B83DC1F21AC54003283AF /* Debug */,
+				177B83DD1F21AC54003283AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 177B83BC1F21AC53003283AF /* Project object */;
+}
